@@ -190,9 +190,20 @@
 		
 
 		<div class="relative grid  md:grid-cols-3">
-			<Servicethree />
-			<Servicethree />
-			<Servicethree />
+			<Servicethree
+			title="عدد العملاء "
+			description="+26500"
+			icon="icon1.webp"
+			/>
+			<Servicethree
+			title="سنوات الخبرة "
+			description="+10 "
+			/>
+			<Servicethree
+			title="معاملات "
+			description="+47682"
+			/>
+		
 
 		</div>
 	</section>
