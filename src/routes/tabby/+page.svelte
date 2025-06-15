@@ -20,7 +20,7 @@
 	$inspect(isMobile);
 </script>
 
-<div class="min-h-screen bg-background">
+<div class="min-h-screen bg-background ">
 	<Navbar />
 	<HeroSection />
 	<Features />

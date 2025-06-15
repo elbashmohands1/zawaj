@@ -1,13 +1,12 @@
 <script>
+  import Keyword from './Keyword.svelte';
 
-	
+	import Serviceone from './components/Serviceone.svelte';
+	import Servicetwo from './components/Servicetwo.svelte';
 	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
 	import '@splidejs/svelte-splide/css';
 	import '@splidejs/splide/dist/css/themes/splide-default.min.css';
-	import Servicetwo from './zawaj/components/Servicetwo.svelte';
-	import Serviceone from './zawaj/components/Serviceone.svelte';
-	import Servicethree from './zawaj/components/Servicethree.svelte';
-	import Keyword from './zawaj/Keyword.svelte';
+	import Servicethree from './components/Servicethree.svelte';
 
 	let keywords=[
 		"استخراج تصريح زواج سعودي من أجنبية" ,
