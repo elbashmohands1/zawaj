@@ -1,4 +1,6 @@
 <script>
+  import Slider from './Slider.svelte';
+
 
 	
 	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
@@ -127,9 +129,7 @@
 			<Servicetwo />
 			<Servicetwo />
 			<Servicetwo />
-			<Servicetwo />
-			<Servicetwo />
-			<Servicetwo />
+		
       <img
       src="shape4.webp"
       alt="divider"
@@ -146,41 +146,23 @@
 		</div>
 		<div>
 			<Splide options={ { rewind: true , autoplay:true , direction:'rtl', speed:3000 } } aria-label="My Favorite Images">
-  <SplideSlide>
-    	<div class="relative flex flex-col justify-center items-center ">
-						<img src=" man1.jpg " alt="" class="absolute md:size-28 size-20 rounded-full bg-cover top-4">
-						<img src="ray.avif " alt="" class="">
-						<div class="absolute flex flex-col items-center md:max-w-md max-w-xs md:top-38 top-29 text-center">
-							<h3 class="md:text-3xl text-2xl font-black text-gold md:mb-8 mb-4">سعد الرفاعي</h3>
-							<p class="text-sm md:text-[1.1rem]">​صراحة معقبنا أبو خالد كفو وتعامله راقي جداً , أنا بصراحة انبسطت وأنا تعاملت معاه ، يستاهل منا كل الخير وأكيد راح يكون هو أول معقب بشوفه لأنه خبير بشغله وينجز الخدمة بوقت قصير </p>
-						</div>
-					</div>
-  </SplideSlide>
-  <SplideSlide>
-    	<div class="relative flex flex-col justify-center items-center ">
-						<img src=" man2.jpg " alt="" class="absolute md:size-28 size-20 rounded-full bg-cover top-4">
-						<img src="ray.avif " alt="" class="">
-						<div class="absolute flex flex-col items-center md:max-w-md max-w-xs md:top-38 top-29 text-center">
-							<h3 class="md:text-3xl text-2xl font-black text-gold md:mb-8 mb-4">خالد الجهني</h3>
-							<p class="text-sm md:text-[1.1rem]">
-​صراحه تجربتي  تجربة ناجحة كنت ابحث عن معقب استخراج تصريح زواج وصدفه بحثت على جوجل وحصلت على رقم ابو خالد مكتب السهم واتفقت معه وانا في مكاني بدون حضور حصلت على تصريح زواج والحمد لله خلصت كل الاجرائات   
-
-							</p>
-						</div>
-					</div>
-  </SplideSlide>
-  <SplideSlide>
-    	<div class="relative flex flex-col justify-center items-center ">
-						<img src=" man3.jpg " alt="" class="absolute md:size-28 size-20 rounded-full bg-cover top-4">
-						<img src="ray.avif " alt="" class="">
-						<div class="absolute flex flex-col items-center md:max-w-md max-w-xs md:top-38 top-29 text-center">
-							<h3 class="md:text-3xl text-2xl font-black text-gold md:mb-8 mb-4">محمد القرني</h3>
-							<p class="text-sm md:text-[1.1rem]">
-​انصح كل من يريد تصريح زواج من اجنبية مقيمه أو بالخارج لا يبحث عن  مكتب اخر غيرمكتب السهم الذهبي ( ابو خالد ) انا تعاملت مع ابو خالد يعلم الله لا يوجد معقب مثيل له بالانجاز والوفاء  اسال الله له دوام الصحه والعافيه
-							</p>
-						</div>
-					</div>
-  </SplideSlide>
+ <Slider
+ image=" man1.jpg "
+ title="سعود العتيبي"
+ description="أنا تعاملت مع مكتب السهم الذهبي لنقل المهنة، وبالصراحة ما قصروا ، أبو خالد معقب خبير وما يقصر في تنفيذ الخدمة - وأكيد بتكون تجربتك معه سهلة وممتازة "
+ />
+ <Slider
+ image=" man2.jpg "
+ title=" عبدالرحمن الدوسري"
+ description="​انصح كل من يريد تصريح زواج من اجنبية مقيمه أو بالخارج لا يبحث عن  مكتب اخر غيرمكتب السهم الذهبي ( ابو خالد ) انا تعاملت مع ابو خالد يعلم الله لا يوجد معقب مثيل له بالانجاز والوفاء  اسال الله له دوام الصحه والعافيه"
+ />
+ <Slider
+ image=" man3.jpg "
+ title="عبدالله المطيري"
+ description="​صراحة معقبنا أبو خالد كفو وتعامله راقي جداً , أنا بصراحة انبسطت وأنا تعاملت معاه ، يستاهل منا كل الخير وأكيد راح يكون هو أول معقب بشوفه لأنه خبير بشغله وينجز الخدمة بوقت قصير 
+"
+ />
+ 
 </Splide>
 		</div>
 	</section>
