@@ -21,7 +21,7 @@
 </script>
 
 
-<div class="mx-auto  lg:max-w-4xl text-white  bg-black">
+<div class="mx-auto  lg:max-w-4xl text-white  bg-black overflow-hidden">
 	<!-- Navbar -->
 	<nav class="border-gold flex items-center justify-between border-b-4 md:p-4 px-2">
 		<div class=" max-w-2xs ">
@@ -43,7 +43,7 @@
 			</a>
 		</div>
     <div class="block md:hidden">
-      nav
+     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu-icon lucide-menu text-gold me-4"><path d="M4 12h16"/><path d="M4 18h16"/><path d="M4 6h16"/></svg>
     </div>
 	</nav>
 
@@ -261,7 +261,7 @@
 	</section>
 	<div class="h-20"></div>
 
-	<section class="py-20">
+	<section class="py-20 px-4">
 	<div class="text-center flex flex-col gap-6 items-center justify-center">
 		<h2 class="text-gold text-4xl font-black ">ما هو تصريح الزواج</h2>
 		<p class="text-xl  mb-12 md:max-w-2xl">
