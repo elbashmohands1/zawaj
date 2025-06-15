@@ -10,6 +10,7 @@
 	import Serviceone from './zawaj/components/Serviceone.svelte';
 	import Servicethree from './zawaj/components/Servicethree.svelte';
 	import Keyword from './zawaj/Keyword.svelte';
+	import DarkmodeButton from '$lib/components/DarkmodeButton.svelte';
 
 	let keywords=[
 		"استخراج تصريح زواج سعودي من أجنبية" ,
@@ -102,7 +103,7 @@
 			<h3 class="text-gold text-3xl font-bold">استخراج تصاريح زواج</h3>
 		</div>
 
-		<div class="relative grid md:grid-cols-2 lg:grid-cols-3">
+		<div class="relative grid grid-cols-1  md:grid-cols-3">
 			<Serviceone
              title="  استخراج تصريح زواج سعودي " 
              
