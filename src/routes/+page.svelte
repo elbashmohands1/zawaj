@@ -18,7 +18,7 @@
 </script>
 
 
-<div class="mx-auto  lg:max-w-4xl text-white">
+<div class="mx-auto  lg:max-w-4xl text-white  bg-black">
 	<!-- Navbar -->
 	<nav class="border-gold flex items-center justify-between border-b-4 md:p-4 px-2">
 		<div class=" max-w-2xs ">
